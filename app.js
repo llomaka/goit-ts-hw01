@@ -1,4 +1,4 @@
-var button = document.querySelector("button");
+var button = document.getElementById("button");
 var input1 = document.getElementById("num1");
 var input2 = document.getElementById("num2");
 var result = document.getElementById("result");

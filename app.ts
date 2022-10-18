@@ -1,4 +1,4 @@
-const button = document.querySelector("button");
+const button = document.getElementById("button")! as HTMLButtonElement;
 const input1 = document.getElementById("num1")! as HTMLInputElement;
 const input2 = document.getElementById("num2")! as HTMLInputElement;
 const result = document.getElementById("result")! as HTMLParagraphElement;
